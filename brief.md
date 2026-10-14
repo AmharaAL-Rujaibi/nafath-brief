@@ -21,11 +21,19 @@ Apple's App Transport Security (ATS) helps protect network connections made by i
 Resource: Preventing Insecure Network Connections – https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 
 ## Networking
+IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses, providing a much larger address space. For the government’s AI chat assistant, both protocols can support communication between citizens’ mobile devices and government servers. IPv6 also introduces differences in packet structure and addressing. However, using IPv6 does not automatically encrypt information. The project should support reliable connectivity and use appropriate security measures to protect citizens’ questions and responses during transmission.
+
+Resource: RFC 8200, Internet Protocol, Version 6 (IPv6) Specification – https://www.rfc-editor.org/info/rfc8200/
 
 ## Cybersecurity
+Prompt injection occurs when malicious instructions attempt to influence an AI assistant's behavior. Direct attacks come from users, while indirect attacks can appear in external documents or retrieved content. For the government's AI chat assistant, attackers might try to manipulate answers or expose sensitive information. Developers should treat retrieved content as untrusted, limit the assistant's permissions, and apply appropriate security checks to reduce these risks.
+
+Resource: OWASP, LLM01: Prompt Injection – https://genai.owasp.org/llmrisk2023-24/llm01-24-prompt-injection/
 
 ## Data
+Data anonymisation removes identifying information so individuals cannot be identified using reasonably likely means, while pseudonymisation replaces identifiers but may still allow re-identification using additional information. For the government's AI chat assistant, these techniques help protect citizens' privacy when handling questions, conversation records, and service data. Developers should minimise personal data collection, restrict access to sensitive records, and carefully assess whether information is truly anonymous before sharing or analysing it.
 
+Resource: Introduction to Anonymisation – https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/
 ## Misconception in My Track
 
 ## Open Question
