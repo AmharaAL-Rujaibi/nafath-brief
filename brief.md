@@ -35,5 +35,7 @@ Data anonymisation removes identifying information so individuals cannot be iden
 
 Resource: Introduction to Anonymisation – https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/
 ## Misconception in My Track
+A common misconception is that IPv6 uses the same 32-bit address length as IPv4. In fact, IPv6 uses 128-bit addresses, providing a much larger address space. RFC 8200, Section 3 (IPv6 Header Format), identifies the Source Address and Destination Address fields as 128-bit addresses. This distinction matters for the government's AI chat assistant because its network infrastructure must support the correct addressing formats for both protocols. Developers should also remember that adopting IPv6 does not automatically encrypt communications. Appropriate security measures are still necessary to protect citizens' questions and responses.
 
 ## Open Question
+How can the government ensure that its AI chat assistant remains accessible and secure for citizens using both IPv4 and IPv6 networks, especially when mobile network conditions vary?
